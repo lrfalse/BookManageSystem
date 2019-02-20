@@ -1,0 +1,27 @@
+package com.sdxmxy.bookmanage;
+
+import org.codehaus.groovy.runtime.powerassert.SourceText;
+
+public class Test {
+
+    @org.junit.Test
+    public void test(){
+        Integer a=0;
+        for (int i = 2; i <= 100; i++) {
+           int j=2;
+            while(i%j!=0){
+                j++;
+            }
+            if(j==i){
+                System.out.println(i);
+            }
+        }
+
+    }
+
+    @org.junit.Test
+    public void test1(){
+
+
+    }
+}
